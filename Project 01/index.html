@@ -1,0 +1,51 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>לוח זמנים</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+  
+   <!--Container Div-->
+    <div class="container">
+
+       <!--Jumbotron Div-->
+        <div class=jumbotron style="background-color: transparent">
+            <img id="MainTitle" src="img/mainttl.png" />
+        </div>
+        <!--Jumbotron Div-->
+
+       <!--Note Div-->
+        <div id="note">
+            <textarea id="noteArea" rows="4" style="direction: ltr;" placeholder="Please Add Note" required></textarea>
+            <div class="btnRow">
+                <div class="col-sm-6">
+                    <button class="btn" id="addBtn"><i class="far fa-save" style="font-size: 30px; color: rgb(53, 30, 215);"></i></button>
+                </div>
+                <div class="col-sm-6">
+                    <button class="btn" id="clearBtn"><i class="fas fa-trash-alt" style="font-size: 30px; color: rgb(53, 30, 215);"></i></button>
+                </div>
+            </div>
+        </div>
+        <!--Note Div-->
+
+        <div class="row"></div>
+
+    </div>
+    <!--Container Div-->
+
+   <!-- Connect External Java Script :) -->
+    <script src="js/js.js"></script>
+</body>
+
+</html>
